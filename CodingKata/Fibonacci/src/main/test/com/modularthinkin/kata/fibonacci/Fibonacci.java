@@ -16,6 +16,12 @@ package com.modularthinkin.kata.fibonacci;
  */
 
 public class Fibonacci {
+	
+	public static void main(String[] args){
+		Fibonacci fibonacci = new Fibonacci();
+		long calculatedFibonacci = fibonacci.calculateFibonacci(Integer.valueOf(args[0]));
+		System.out.println(calculatedFibonacci);
+	}
 
 	public Fibonacci() {
 	}
